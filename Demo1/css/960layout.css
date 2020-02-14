@@ -1,0 +1,60 @@
+body{
+    min-width: 960px;
+}
+/*强制最小背景宽度*/
+.container_12{
+    margin-left:auto;
+    margin-right: auto;
+    width: 960px;
+}
+/*宽度不超过960px与整体布局一致*/
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.push_6, .push_9 
+{
+  position: relative;
+}
+/*内联显示 左浮动 左右外边距10px*/
+ 
+  .container_12 .grid_3 {
+    width: 220px;
+}
+.container_12 .grid_5 {
+    width: 380px;
+}
+  .container_12 .grid_6 {
+    width: 460px;
+}
+.container_12 .grid_7 {
+    width: 540px;
+  }
+  
+  .container_12 .grid_12 {
+    width: 940px;
+}
+  .container_12 .push_6 {
+    left: 480px;
+}
+  .container_12 .push_9 {
+    left: 720px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+
